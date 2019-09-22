@@ -60,7 +60,7 @@
         </div>
         <hr />
         <footer>
-            <p>&copy; <%: DateTime.Now.Year %> - AnalisisApp</p>
+            <p>&copy; <%: DateTime.Now.Year %> - PrimerParcialAp2</p>
         </footer>
     </form>
 </body>
