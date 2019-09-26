@@ -19,7 +19,6 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-
     <form id="form1" runat="server">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
@@ -36,7 +35,7 @@
                             <a class="nav-link dropdown-toggle" id="RegistrosNavbarDropDown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registros
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" runat="server" href="#"></a>
+                                <a class="dropdown-item" runat="server" href="~/Registro/RegistroEvaluacion.aspx">Evaluaciones</a>
                                 <a class="dropdown-item" runat="server" href="#"></a>
                                 
                             </div>

@@ -11,6 +11,7 @@ namespace DAL
 {
     public class Contexto : DbContext
     {
+        public DbSet<Evaluaciones> Evaluaciones { get; set; }
         public Contexto() : base("ConStr")
         { }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
